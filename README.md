@@ -52,7 +52,7 @@ MaterialSegmentedControl(
           borderRadius: 32.0,
           disabledChildren: [
             3,
-          ]
+          ],
           onSegmentChosen: (index) {
             setState(() {
               _currentSelection = index;
